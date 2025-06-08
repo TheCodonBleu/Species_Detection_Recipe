@@ -1,6 +1,10 @@
 version 1.0
 
 workflow SpeciesDetection {
+    meta {
+      description: "Determine your species from the reads sequences."
+      author: "David Maimoun (The Codon Bleu)"
+  }
     input {
         String basespace_collection_id 
         String api_server
